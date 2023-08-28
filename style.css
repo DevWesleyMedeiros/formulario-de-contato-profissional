@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+}
+form {
+    width: 96%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+form fieldset {
+    text-align: initial;
+    padding: 20px 40px;
+    border: 1px solid #ccc;
+}
+form legend {
+    font-size: 17px;
+    color: rgb(130, 130, 130);
+}
+form input[type=text] {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 13px;
+    width: 80%;
+}
+form input[type=text]:focus {
+    outline: 0;
+}
+form select {
+    font-family: "tahoma"; 
+    color: rgb(100, 100, 100);
+    width: calc(80% + 0px);
+    margin-top: 30px;
+    display: inline-block;
+    padding: 10px 13px;
+    outline: 0;
+}
+form h2 {
+    margin-top: 20px;
+    color: rgb(130, 130, 130)
+}
+.input {
+    margin-left: 13px;
+    font: 16px;
+    margin-top: 20px;
+    color: rgb(130, 130, 130)
+}
+form input[type=submit] {
+    font-family: "tahoma"; 
+    border: 0px;
+    margin-top: 30px;
+    border: 2px solid rgb(130, 130, 130);
+    height: auto;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(140, 140, 140);
+}
+form textarea {
+    font-family: "tahoma"; 
+    resize: none;
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    width: 80%;
+    height: 140px;
+    outline: none;
+    padding: 10px 13px
+}
